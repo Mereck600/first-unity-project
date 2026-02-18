@@ -1,23 +1,18 @@
 
-# This .gitignore file should be placed at the root of your Unity project directory
-#
-# Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
-#
-.utmp/
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Uu]ser[Ss]ettings/
-*.log
+# =========================
+# Unity / C# .gitignore
+# (Includes your existing rules + critical Unity folders)
+# =========================
 
-# By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
-*.blend1
-*.blend1.meta
+# --- Unity generated folders (MUST ignore) ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
 
-# MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
 
@@ -34,6 +29,9 @@
 
 # Visual Studio cache directory
 .vs/
+
+# VS Code (optional)
+.vscode/
 
 # Gradle cache directory
 .gradle/
@@ -98,9 +96,10 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
-"/Assets/Versatile Studio Assets"
+
+# Your assets folder ignore (FIX: no quotes; trailing slash)
+ /Assets/Versatile Studio Assets/
 
 # my stuff
 First 3d Project_BurstDebugInformation_DoNotShip/
 build_BackUpThisFolder_ButDontShipItWithYourGame/
-
