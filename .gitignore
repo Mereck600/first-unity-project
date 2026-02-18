@@ -98,7 +98,7 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
-
+"/Assets/Versatile Studio Assets"
 
 # my stuff
 First 3d Project_BurstDebugInformation_DoNotShip/
