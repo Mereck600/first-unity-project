@@ -103,3 +103,13 @@ InitTestScene*.unity*
 # my stuff
 First 3d Project_BurstDebugInformation_DoNotShip/
 build_BackUpThisFolder_ButDontShipItWithYourGame/
+
+
+# Unity baked lighting / GI cache (can be huge, safe to regenerate)
+**/LightingData.asset
+**/LightingData.asset.meta
+**/Lightmap*.exr
+**/Lightmap*.png
+**/Lightmap*.tga
+
+
