@@ -99,7 +99,7 @@ InitTestScene*.unity*
 
 # Your assets folder ignore (FIX: no quotes; trailing slash)
  /Assets/Versatile Studio Assets/
-
+/Assets/HellaFlush_DriftCar_Free
 # my stuff
 First 3d Project_BurstDebugInformation_DoNotShip/
 build_BackUpThisFolder_ButDontShipItWithYourGame/
