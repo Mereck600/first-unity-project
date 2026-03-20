@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8ca507f1ee64b2e4a9682a0e3f93a0da
+timeCreated: 1458906791
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32997
+  packageName: FastGrid
+  packageVersion: 1.1.6
+  assetPath: Assets/BrokenVector/FastGrid/readme.txt
+  uploadId: 150134
