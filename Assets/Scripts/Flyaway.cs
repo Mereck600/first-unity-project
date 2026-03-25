@@ -15,6 +15,7 @@ public class Flyaway : MonoBehaviour
         Rigidbody rb = gameObject.GetComponent<Rigidbody>();
         if (rb != null)
         {
+            
             rb.linearVelocity = Velocity;
             //rb.linearVelocity = new Vector3(rb.linearVelocity.x, Velocity.y, rb.linearVelocity.z);
         }
