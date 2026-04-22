@@ -104,6 +104,42 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "turnLeft",
+                    "type": "Value",
+                    "id": "7e55a3ea-9325-4de2-842e-8c0dd22070a2",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "turnRight",
+                    "type": "Button",
+                    "id": "756e6613-e3b5-4441-8252-7512ee149aed",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "xrTurn",
+                    "type": "Button",
+                    "id": "c9f3abf0-1ac8-4a8b-8e97-d090a8cfa94f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "fullSpeedAhead",
+                    "type": "Button",
+                    "id": "ab985f29-c9e4-4091-9f32-ed8d36dff5b9",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -516,7 +552,7 @@
                 },
                 {
                     "name": "",
-                    "id": "47310835-a094-4ab3-bc12-7d4ff740eeba",
+                    "id": "9af205ee-80f8-47ef-8ba9-afa2225b0a79",
                     "path": "<XRController>{RightHand}/{PrimaryTrigger}",
                     "interactions": "",
                     "processors": "",
@@ -544,6 +580,83 @@
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
                     "action": "deceleration",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fbf7d4da-2fa7-4c21-93d0-1616afecebe3",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "turnLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e75ec420-0731-4514-a7bf-eaf7ec3572b4",
+                    "path": "<XRController>{LeftHand}/{PrimaryAction}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";XR",
+                    "action": "turnLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "03137123-e270-44ba-bf51-910de1102065",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "turnRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9956db67-2a09-4bb8-99e5-e64345f10059",
+                    "path": "<XRController>{RightHand}/{PrimaryAction}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";XR",
+                    "action": "turnRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ec3da5e0-c9fb-4259-8117-eef107ac08f5",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "xrTurn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b8ff47bf-9cca-4802-8fe1-b1b7ce732076",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "fullSpeedAhead",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ad889bbe-19f4-4a8e-8c3a-ce4ceb93b0f6",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "fullSpeedAhead",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
